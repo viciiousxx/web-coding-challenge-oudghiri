@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.coding.challenge</groupId>
-	<artifactId>Coding Challenge</artifactId>
+	<artifactId>Coding-Challenge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Coding Challenge</name>
 	<description>Coding Challenge Oudghiri</description>

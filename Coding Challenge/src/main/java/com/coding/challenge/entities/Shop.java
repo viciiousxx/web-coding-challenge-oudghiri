@@ -29,7 +29,6 @@ public class Shop {
     private boolean liked;
 
     @NotNull
-    @Column(name  = "coordinate_id")
     @OneToOne
     private Coordinate coordinate;
 

@@ -13,8 +13,8 @@ public class ShopDisliked extends Shop {
     @Column(name = "expired_timeout")
     private LocalDateTime expiredTime;
 
-    public ShopDisliked(@NotNull String name, @NotNull String adresse, @NotNull String uri, @NotNull boolean liked, LocalDateTime expiredTime) {
-        super(name, adresse, uri, liked);
+    public ShopDisliked(@NotNull String name,@NotNull Coordinate coordinate, @NotNull String adresse, @NotNull String uri, @NotNull boolean liked, LocalDateTime expiredTime) {
+        super(name, adresse, uri, liked, coordinate);
         this.expiredTime = expiredTime;
     }
 

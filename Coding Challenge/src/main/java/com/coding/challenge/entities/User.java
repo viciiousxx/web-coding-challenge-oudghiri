@@ -37,7 +37,6 @@ public class User {
     private String password;
 
     @NotNull
-    @Column(name  = "coordinate_id")
     @OneToOne
     private Coordinate coordinate;
 
